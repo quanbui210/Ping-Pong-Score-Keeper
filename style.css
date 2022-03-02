@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+  border: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* .container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  padding: 30px;
+} */
+
+/*
+#playto {
+  border: 1px solid #ccc;
+  border-radius: 30%;
+}
+
+#range {
+  border: 1px solid black;
+  border-top-right-radius: 5px;
+  width: 15%;
+}
+
+.player-one-btn,
+.player-two-btn,
+.reset-btn {
+  margin-top: 12px;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.player-one-btn {
+  background-color: lightblue;
+}
+
+.player-two-btn {
+  background-color: lightgreen;
+}
+
+.reset-btn {
+  background-color: lightcoral;
+} */
+
+/* .winner {
+  color: green;
+}
+
+.loser {
+  color: red;
+} */
